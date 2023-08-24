@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #8F89D6;
+}
+
+header{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    gap: 3rem;
+}
+
+.header_text{
+    color: white;
+    width: 7rem;
+}
+
+.firstext_div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.kontakt{
+    display: flex;
+}
+
+.big_tooth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    max-width: 23vw;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+input{
+    background-color: #cfcfd25a;
+    padding: 0.9rem;
+    border-radius: 0.6rem;
+    border: none;
+    width: 22rem;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    
+    
+}
+
+.input_text{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    
+}
+
+::placeholder{
+    color: white;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.button1{
+    border: none;
+    width: 22rem;
+    border-radius: 8px;
+    padding: 0.9rem;
+    box-shadow: 0 0 3px #8F89D6;
+    color: #8F89D6;
+    background-color: white;
+}
+
+a{
+    color: white;
+    font-size: 1.05rem;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+
+.checkbox{
+    position: relative;
+    left: 1rem;
+    background-color: #8F89D6;
+}
+
+.check_text{
+    position: relative;
+    right: 9rem;
+    color: white;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
