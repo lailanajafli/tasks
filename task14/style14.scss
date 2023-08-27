@@ -1,0 +1,168 @@
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    margin: 2rem auto;
+    width: 100vw;
+    height: 0.1rem;
+    background-color: black;
+}
+
+.first_text {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 2rem;
+}
+
+.girl_container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 3.2rem;
+    position: relative;
+}
+
+.mesaj_qutu {
+    position: relative;
+    bottom: 0.67rem;
+    margin-left: 3rem;
+    width: 26rem;
+    height: 6.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    background: rgb(143,137,214);
+background: -moz-linear-gradient(90deg, rgba(143,137,214,1) 0%, rgba(112,106,185,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(143,137,214,1) 0%, rgba(112,106,185,1) 100%);
+background: linear-gradient(90deg, rgba(143,137,214,1) 0%, rgba(112,106,185,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8f89d6",endColorstr="#706ab9",GradientType=1);
+    
+}
+
+.ucbucaq{
+    position: relative;
+    bottom: 0.2rem;
+    left: 4.3rem;
+}
+
+.mesaj_text{
+    width: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    float: right;
+    line-height: 1.3rem;
+}
+
+.girl_container2 {
+    display: flex;
+    gap: 1rem;
+    
+    justify-content: right;
+    margin-right: 3.3rem;
+    position: relative;
+}
+
+.mesaj_qutu2 {
+    position: relative;
+    bottom: 0.55rem;
+    margin-right: 3rem;
+    width: 26rem;
+    height: 6.5rem;
+    background-color: black;
+    display: flex;
+    float: right;
+    justify-content: right;
+    align-items: center;
+    border-radius: 32px;
+    background: rgb(96,140,214);
+    background: -moz-linear-gradient(90deg, rgba(96,140,214,1) 4%, rgba(87,93,201,1) 85%);
+    background: -webkit-linear-gradient(90deg, rgba(96,140,214,1) 4%, rgba(87,93,201,1) 85%);
+    background: linear-gradient(90deg, rgba(96,140,214,1) 4%, rgba(87,93,201,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#608cd6",endColorstr="#575dc9",GradientType=1);
+    
+}
+.ucbucaq2{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 0.3rem;
+    right: 4.4rem;
+}
+
+.mesaj_text2{
+    position: relative;
+    width: 22rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    line-height: 1.3rem;
+}
+
+.delete{
+    position: relative;
+    bottom: 0.5rem;
+}
+.delete2{
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+.button1{
+    background-color: #8F89D6;
+    padding: 1.7rem;
+    width: 26vw;
+    min-width: 250px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.button2{
+    padding: 1.7rem;
+    width: 26vw;
+    min-width: 260px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1.3rem;
+    border: none;
+    background: rgb(96,140,214);
+background: -moz-linear-gradient(264deg, rgba(96,140,214,1) 4%, rgba(87,93,201,1) 85%);
+background: -webkit-linear-gradient(264deg, rgba(96,140,214,1) 4%, rgba(87,93,201,1) 85%);
+background: linear-gradient(264deg, rgba(96,140,214,1) 4%, rgba(87,93,201,1) 85%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#608cd6",endColorstr="#575dc9",GradientType=1);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    gap: 2rem;
+}
+
+
+
