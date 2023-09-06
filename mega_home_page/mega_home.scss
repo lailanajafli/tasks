@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 0px;
+    width: 100vw;
     color: rgba(0, 0, 0, 0.87);
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -14,7 +14,30 @@ body {
     line-height: 1.5;
     letter-spacing: 0.00938em;
     background-color: rgb(255, 255, 255);
-    max-width: 1700px;
+    
+}
+
+.yellow_container {
+    gap: 51rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5rem;
+    
+   
+}
+
+.header_icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    
+    i {
+        
+        font-size: 1.3rem;
+    }
 }
 
 .title_container {
@@ -24,45 +47,18 @@ body {
     padding: 2.5rem;
 }
 
-.yellow_container {
-    
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-
-    p {
-        margin-left: 5rem;
-    }
-}
-
-.header_icon {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    row-gap: 16px;
-    column-gap: 16px;
-    margin-right: 4rem;
-
-    i {
-        user-select: none;
-        width: 1em;
-        height: 1em;
-        display: inline-block;
-        fill: currentcolor;
-        flex-shrink: 0;
-        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        font-size: 1.4rem;
-    }
-}
-
 .logo_name {
-    
     display: flex;
     font-weight: bold;
     align-items: center;
     font-size: 1.4rem;
     justify-content: left;
+    gap: 0.5rem;
+}
+
+.active {
+    background-color: rgba(255, 192, 31, 1);
+    color: white;
 }
 
 .topnav {
@@ -85,10 +81,6 @@ body {
     align-items: center;
 }
 
-.active {
-    background-color: rgba(255, 192, 31, 1);
-    color: white;
-}
 
 .topnav .icon {
     display: none;
@@ -267,7 +259,6 @@ body {
     z-index: 1111;
     box-sizing: border-box;
     flex-flow: wrap;
-    
     margin-left: -16px;
     margin-top: 16px;
     margin-bottom: 40px;
@@ -319,23 +310,23 @@ body {
     flex-wrap: wrap;
 }
 
-@media (max-width:1315px) {
+@media (max-width:1300px) {
     .long_trak {
-        visibility: hidden;
+        display: none;
         position: absolute;
     }
 }
 
 @media (max-width:920px) {
     .topnav {
-        visibility: hidden;
+        display: none;
     }
 
     .azenru {
-        visibility: hidden;
+        display: none;
     }
     .trak3_right{
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -414,11 +405,13 @@ body {
     padding: 15px 0;
     background-color: white;
     white-space: nowrap;
+    
 }
 
 .logos_slide {
-    display: inline-block;
+    display: flex;
     animation: 17s slide infinite linear;
+    gap: 5rem;
 
     img {
         height: 50px;
@@ -458,8 +451,9 @@ body {
 
 .trak3_container{
     margin-top: 10rem;
-    min-height: 27vw;
-    width: 100vw;
+    min-height: 25rem;
+    
+    width: 100rem;
     background-color: rgba(239, 239, 239, 1);
 }
 
@@ -477,11 +471,13 @@ body {
     float: right;
     position: relative;
     bottom: 7rem;
+    left: 2rem;
     
 }
 
 .input_container{
     width: 320px;
+    
 }
 
 .entryarea{
@@ -552,8 +548,9 @@ input:valid + .labeline{
 .footer{
     background: rgb(255,192,31);
 background: linear-gradient(90deg, rgba(255,192,31,0.145623215106355) 0%, rgba(255,255,255,1) 52%, rgba(255,192,31,0.14842433555453427) 100%);
-height: 30vh;
+min-height: 30vh;
 margin-top: 3rem;
+width: 100rem;
 
 }
 
@@ -561,6 +558,32 @@ margin-top: 3rem;
     text-decoration: none;
     color: #353535;
     font-size: 1.1rem;
-    
 }
+
+@media (max-width:650px) {
+    .wrap {
+        flex-wrap: wrap; 
+    }
+    .azenru {
+        display: none;
+    }
+    .trak3_right{
+        visibility: hidden;
+    }
+}
+
+
+
+@media (max-width:800px) {
+    .sss {
+        display: flex;
+        
+        flex-direction: column;
+        
+    }
+}
+    
+
+
+
 
