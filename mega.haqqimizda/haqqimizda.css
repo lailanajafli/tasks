@@ -43,6 +43,12 @@ body {
   padding: 2.5rem;
 }
 
+.img1 {
+  position: absolute;
+  top: 15rem;
+  z-index: -1;
+}
+
 .logo_name {
   display: flex;
   font-weight: bold;
