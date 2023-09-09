@@ -6,7 +6,7 @@
 }
 
 body {
-    
+
     color: rgba(0, 0, 0, 0.87);
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -14,7 +14,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.00938em;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 .yellow_container {
@@ -31,6 +31,7 @@ body {
     float: right;
     justify-content: center;
     align-items: center;
+
     i {
         font-size: 1.3rem;
     }
@@ -249,7 +250,7 @@ body {
 .trak_container {
     display: flex;
     flex-wrap: wrap;
-    gap:1rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     z-index: 1111;
@@ -259,7 +260,7 @@ body {
     margin-top: 16px;
     margin-bottom: 40px;
     -webkit-box-pack: center;
-    
+
 }
 
 .trak {
@@ -321,7 +322,8 @@ body {
     .azenru {
         display: none;
     }
-    .trak3_right{
+
+    .trak3_right {
         display: none;
     }
 }
@@ -339,12 +341,12 @@ body {
     align-items: center;
     width: 20rem;
     flex-direction: column;
-    height: 29rem;
+    height: 70vh;
     display: flex;
     font-size: 1rem;
     gap: 1.3rem;
     cursor: pointer;
-    
+
 
 }
 
@@ -401,7 +403,7 @@ body {
     padding: 15px 0;
     background-color: white;
     white-space: nowrap;
-    
+
 }
 
 .logos_slide {
@@ -428,7 +430,7 @@ body {
     font-size: 1rem;
     gap: 1.3rem;
     cursor: pointer;
-    
+
 }
 
 .first_container2:hover {
@@ -445,38 +447,39 @@ body {
     gap: 11rem;
 }
 
-.trak3_container{
+.trak3_container {
     margin-top: 10rem;
     min-height: 25rem;
-    
+
     width: 100rem;
     background-color: rgba(239, 239, 239, 1);
 }
 
-.trak3_left{
+.trak3_left {
     flex-basis: 50%;
     -webkit-box-flex: 0;
     flex-grow: 0;
-    
+
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
-    
+
 }
-.trak3_right{
+
+.trak3_right {
     float: right;
     position: relative;
     bottom: 7rem;
     left: 2rem;
-    
+
 }
 
-.input_container{
+.input_container {
     width: 320px;
-    
+
 }
 
-.entryarea{
+.entryarea {
     display: flex;
     align-items: center;
     position: relative;
@@ -484,7 +487,7 @@ body {
     line-height: 80px;
 }
 
-input{
+input {
     position: absolute;
     width: 100%;
     outline: none;
@@ -498,7 +501,7 @@ input{
     z-index: 1111;
 }
 
-.labeline{
+.labeline {
     position: absolute;
     font-size: 1.2em;
     color: rgba(104, 104, 104, 1);
@@ -508,13 +511,14 @@ input{
     transition: 0.2s ease;
 }
 
-input:focus, input:valid{
+input:focus,
+input:valid {
     color: black;
     border: 1px solid rgba(255, 192, 31, 1);
 }
 
-input:focus + .labeline,
-input:valid + .labeline{
+input:focus+.labeline,
+input:valid+.labeline {
     background-color: rgba(239, 239, 239, 1);
     color: rgba(255, 192, 31, 1);
     line-height: 30px;
@@ -546,7 +550,6 @@ input:valid + .labeline{
 background: linear-gradient(90deg, rgba(255,192,31,0.145623215106355) 0%, rgba(255,255,255,1) 52%, rgba(255,192,31,0.14842433555453427) 100%);
 min-height: 30vh;
 margin-top: 3rem;
-width: 100rem;
 
 }
 
@@ -558,12 +561,14 @@ width: 100rem;
 
 @media (max-width:650px) {
     .wrap {
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
+
     .azenru {
         display: none;
     }
-    .trak3_right{
+
+    .trak3_right {
         visibility: hidden;
     }
 }
@@ -573,42 +578,23 @@ width: 100rem;
 @media (max-width:800px) {
     .sss {
         display: flex;
-        
+
         flex-direction: column;
-        
+
     }
 }
-    
-.footer{
-    background: rgb(255,192,31);
-background: linear-gradient(90deg, rgba(255,192,31,0.145623215106355) 0%, rgba(255,255,255,1) 52%, rgba(255,192,31,0.14842433555453427) 100%);
-min-height: 30vh;
-margin-top: 3rem;
-min-width: 1440px;
-}
 
-.footer_a{
-    text-decoration: none;
-    color: #353535;
-    font-size: 1.1rem;
-}
 
-@media (min-width:1000px) {
-    .aaa {
-        display: flex;
-        gap: 5rem;
-    }
-}
+
+
 @media (min-width:900px) {
     .aaa {
         display: flex;
         gap: 2rem;
         flex-wrap: wrap;
     }
-    .footer_a{
-        justify-content: space-evenly;
-    }
 }
+
 @media (min-width:1440px) {
     .aaa {
         display: flex;
@@ -621,7 +607,8 @@ min-width: 1440px;
     .middle {
         justify-content: flex-start;
     }
+
     body {
-        min-width: 578px;  
+        min-width: 578px;
     }
 }
