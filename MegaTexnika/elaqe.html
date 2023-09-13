@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./haqqimizda.css">
-    <title>Mega Haqqimizda</title>
+    <link rel="stylesheet" href="./elaqe.css">
+    <title>icare sertleri</title>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                 </div>
                 <div style="width: 41rem;" class="topnav" id="myTopnav">
                     <a style="width: 50vw; height: 3.5rem;" href="./mega.html">Əsas səhifə</a>
-                    <a class="active" href="./haqqimizda.html" style="width: 50vw; height: 3.5rem;">Haqqımızda</a>
+                    <a href="haqqimizda.html" style="width: 50vw; height: 3.5rem;">Haqqımızda</a>
                     <div class="dropdown">
                         <a href="./texnika.html"><button style="width: 60vw; height: 1.5rem;" class="dropbtn">Texnikalar
                             <i style="position: relative; left: 0.5rem;" class="fa fa-caret-down"></i>
@@ -54,7 +54,7 @@
                     </div>
                     <a style="width: 50vw; height: 3.5rem;" href="./icare.html">İcarə şərtləri</a>
                     <a style="width: 13vw; height: 3.5rem;" href="#contact">Blog</a>
-                    <a style="width: 13vw; height: 3.5rem;" href="./elaqe.html">Əlaqə</a>
+                    <a class="active" style="width: 13vw; height: 3.5rem;" href="./elaqe.html">Əlaqə</a>
                 </div>
                 <div class="azenru">
                     <pre>Az  En  Ru</pre>
@@ -62,79 +62,91 @@
             </div>
             <div style="display: flex; gap: 0.7rem;margin-top: 1.2rem;">
                 <a style="text-decoration: none; color: #555555; " href="">Ana səhifə</a>
+                <p>|</p>
+                <a style="text-decoration: none; color: #555555;" href="">Əlaqə</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;  align-items: center;">
-            <h1 class="big_mega_texnika">megaTexnika</h1>
-            <p style="color: #FFC01F;text-align: center;font-family: Mulish;font-size: 20px;">Haqqımızda</p>
-            <p style=" text-align: center;font-family: Mulish;">Lorem Ipsum is simply
-                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-        </div>
-        <div style="padding: 0 2rem;">
-            <div class="haq1">
-                <div style="margin: 3rem auto;" class="haqqimizda2"><img width="100%" src="./haqqimizda1.png" alt="">
+
+
+    <main class="container">
+        <div>
+            <div class="ccc">
+                <div style="display: flex;
+                flex-flow: wrap;flex-direction: row;">
+                    <div>
+                        <h2 style="font-weight: 400;
+                            font-size: 2.425rem;margin-top: 0.8rem;">Bizə yazın!</h2>
+                        <div class="ssss">
+                            <div style="display: flex; flex-direction: column; gap: 1.3rem;">
+                                <div class="input_container">
+                                    <div class="entryarea">
+                                        <input type="text" required>
+                                        <div class="labeline">Ad, Soyad*</div>
+                                    </div>
+                                </div>
+                                <div class="input_container">
+                                    <div class="entryarea">
+                                        <input type="text" required>
+                                        <div class="labeline">Şirkət</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 1.3rem;">
+                                <div class="input_container">
+                                    <div class="entryarea">
+                                        <input type="text" required>
+                                        <div class="labeline">E-mail*</div>
+                                    </div>
+                                </div>
+                                <div class="input_container">
+                                    <div class="entryarea">
+                                        <input type="text" required>
+                                        <div class="labeline">Telefon*</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 6.1rem;margin-bottom: 4.5rem;" class="input_container2">
+                            <div class="entryarea2">
+                                <input class="inputmesaj" type="text" required>
+                                <div class="labeline2">Mesaj*</div>
+                            </div>
+                        </div>
+                        <button style="margin-top: 1.5rem;" class="gonder"><span>Göndər</span></button>
+                    </div>
+                </div>
+                <div class="sag">
+                    <div style="padding: 16px;margin-left: 1rem;">
+                        <h2 style="font-weight: 400;
+                            font-size: 2.125rem;
+                            line-height: 1.235;
+                            letter-spacing: 0.00735em;
+                            text-align: center;
+                            color: rgb(89, 108, 114);margin-top: 1.3rem;">Əlaqə</h2>
+                        <div style="display: flex; flex-direction: column;gap: 0.4rem;margin-top: 2rem;">
+                            <p>Fətəli Xan Xoyski 111A, Bakı Azərbaycan</p>
+                            <p>+994(51) 123 45 67 +994(12) 123 45 67</p>
+                            <p>info@megatexnika.az</p>
+                            <p>Qrafik (iş saatlarımız): B.e - Ş. 10:00 - 19:00</p>
+                        </div>
+                        <div style="font-size: 22px;display: flex;gap: 1rem;margin-left: 0.8rem;margin-top: 1rem;">
+                            <div><i class="fa-brands fa-instagram" style="color: #000000;"></i></div>
+                            <div><i class="fa-brands fa-facebook-f fa-sm" style="color: #121212"></i></div>
+                            <div><i class="fa-brands fa-twitter" style="color: #171717;"></i></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div style="display: flex;gap: 7rem; justify-content: space-between;">
-                <div class="long_trak">
-                    <div style="margin-top: 20rem;" class="haqqimizda2">
-                        <img width="100%" src="./haqqimizda3.png" alt="">
-                    </div>
-                </div>
-                <div style="gap: 2rem; flex-direction: column; display: flex;float: right;flex-basis: 100%;
-                -webkit-box-flex: 0;
-                flex-grow: 0;
-                width: 100%;">
-                    <div class="haqqimizda2 haq2" style=" margin-bottom: 1rem;">
-                        <img width="100%" src="./haqqimizda2.png" alt="">
-                    </div>
-                    <div style=" margin-left: 3rem;">
-                        <h1>Mega Texnika-da sınaqdan keçirilmiş texnikalar</h1>
-                        <p
-                            style="line-height: 1.6rem; font-size: 1rem; margin-top: 0.5rem;">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="wrap" style="display: flex; gap: 7rem; align-items: center;margin-top: 6rem;">
-                <div>
-                    <h1 style="font-weight: 900px; font-size: 50px; color: rgba(89, 108, 114, 1);">Niyə bizi seçməlisiniz?
-                        </h>
-                        <p style=" font-size: 1.072rem; color: black;font-weight: 200;">Lorem
-                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                            type
-                            and scrambled
-                            It is a long established fact that a reader will be distracted by the readable content of a page
-                            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                            distribution of letters, as opposed to using 'Content here, content here', making it look like
-                            readable English</p>
-                </div>
-                <div class="haqqimizda2 haq2 haq4" style=" margin-bottom: 1rem;">
-                    <img style="width: 100%;" src="./haqqimizda4.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
+
     <div class="footer">
         <div class="container"
             style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;">
             <div style="margin-bottom: 4.5rem;" class="logo_name">
                 <div style="margin-top: 0.5rem;">
-                    <img style="width: 100%;" src="mega_logo.png" alt="">
+                    <img width="100%" src="mega_logo.png" alt="">
                 </div>
                 <p style="color: rgba(40, 40, 40, 1);margin-top: 1rem;">megaTexnika</p>
             </div>
@@ -173,6 +185,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
