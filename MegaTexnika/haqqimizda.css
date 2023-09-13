@@ -233,7 +233,8 @@ nav p {
 
 .footer {
   background: rgb(255, 192, 31);
-  background: linear-gradient(90deg, rgba(255, 192, 31, 0.1237745098) 0%, rgb(255, 255, 255) 52%, rgba(255, 192, 31, 0.1405812325) 100%);
+  background: linear-gradient(90deg, rgba(255, 192, 31, 0.1456232151) 0%, rgb(255, 255, 255) 52%, rgba(255, 192, 31, 0.1484243356) 100%);
+  min-height: 30vh;
   margin-top: 3rem;
 }
 
@@ -241,14 +242,6 @@ nav p {
   text-decoration: none;
   color: #353535;
   font-size: 1.1rem;
-}
-
-.header_icon {
-  display: flex;
-}
-.header_icon i {
-  margin-left: 1rem;
-  font-size: 22px;
 }
 
 @media (min-width: 1000px) {
