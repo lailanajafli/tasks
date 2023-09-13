@@ -193,7 +193,6 @@ nav p {
 }
 
 .azenru {
-
     display: flex;
     justify-content: right;
     align-items: center;
@@ -242,7 +241,7 @@ nav p {
 
 input {
     position: absolute;
-
+    width: 100%;
     outline: none;
     font-size: 1.3em;
     padding: 0 27px;
